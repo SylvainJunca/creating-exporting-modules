@@ -11,11 +11,13 @@ function numberListMaker (num) {
 // console.log(numberListMaker(2))
 
 
-// an array sorter
+// an array sorter 
+// This function is private
 function sort() {
   return array.sort((a,b) => a - b);
 }
 
+// this function calls the private function
 function listSort() {
   return sort();
 }
